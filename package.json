@@ -4,7 +4,7 @@
   "description": "Typescript Hello World",
   "main": "src/index.js",
   "scripts": {
-    "hello": "./node_modules/ts-node/dist/bin.js src/index.ts"
+    "hello": "node_modules/.bin/ts-node src/index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -16,3 +16,4 @@
     "@types/node": "^9.6.0"
   }
 }
+
